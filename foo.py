@@ -10,7 +10,7 @@ that are lower or equal to 1000 (excluding doubles)
 '''
 integers = [] # can use 'integers = list()' to create new list
 for x in range(1,1001): # ':' refer to indexing eg a list, use ', for range and range will only consider integers no need worry about doubles
-    if is_divisible_by_k(x, 2) == True or is_divisible_by_k(x, 5) == True or  is_divisible_by_k(x, 7) == True: # python does not recognise symbols
+    if is_divisible_by_k(x, 2) or is_divisible_by_k(x, 5) or  is_divisible_by_k(x, 7): # python does not recognise symbols
     # only append if is divisible by k aka '== True' booolean
         integers.append(x)
     
